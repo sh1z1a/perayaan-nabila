@@ -1,11 +1,11 @@
 // --- DATA STRUCTURE (EASY TO EDIT) ---
 const siteData = {
     gallery: [
-        { src: "/assets/img/IMG_7546.jpg", caption: "wisudawan terbaik", tilt: "tilt-left" },
-        { src: "/assets/img/IMG_7741.jpg", caption: "peacee", tilt: "tilt-left" },
-        { src: "/assets/img/IMG_7750.jpg", caption: "canciw aw", tilt: "tilt-right" },
-        { src: "/assets/img/IMG_7674.jpg", caption: "best momen", tilt: "tilt-left" },
-        { src: "/assets/img/IMG_7773.jpg", caption: "finally graduated!", tilt: "tilt-right" },
+        { src: "/assets/img/IMG_7546.JPG", caption: "wisudawan terbaik", tilt: "tilt-left" },
+        { src: "/assets/img/IMG_7741.JPG", caption: "peacee", tilt: "tilt-left" },
+        { src: "/assets/img/IMG_7750.JPG", caption: "canciw aw", tilt: "tilt-right" },
+        { src: "/assets/img/IMG_7674.JPG", caption: "best momen", tilt: "tilt-left" },
+        { src: "/assets/img/IMG_7773.JPG", caption: "finally graduated!", tilt: "tilt-right" },
     ],
     // videos: [
     //     { src: "[VIDEO 01]", thumb: "[THUMBNAIL 01]", title: "just being us", date: "2023" },
