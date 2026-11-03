@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Someone Worth Celebrating ♡</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Music Controls -->
+    <button id="music-toggle" class="floating-btn">🎵 Play Music</button>
+    <audio id="bg-music" loop>
+        <source src="[BACKGROUND_MUSIC_URL.mp3]" type="audio/mpeg">
+    </audio>
+
+    <!-- 1. OPENING / LANDING SECTION -->
+    <section id="landing" class="section-full fade-in-section">
+        <div class="sparkles"></div>
+        <p class="handwritten subtitle">To Someone Worth Celebrating ♡</p>
+        <h1 class="main-title">Congratulations on Your Graduation<br>& Happy Birthday!</h1>
+        <div class="profile-frame">
+            <img src="assets/img/IMG_7727(1).jpg" alt="Profile" class="profile-img placeholder-img">
+        </div>
+        <h2 class="name-display">Nabila Shifa Ramadhany</h2>
+        <p class="degree-display">[S.S]</p>
+        <p class="intro-text">Today isn't just about another year.<br>It's about everything you've achieved along the way.</p>
+        <button id="scroll-to-hero" class="btn-primary">Open Your Memories ♡</button>
+    </section>
+
+    <!-- 2. HERO / CELEBRATION SECTION -->
+    <section id="hero" class="section fade-in-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <p class="handwritten large-hand">One graduation.<br>One more year.<br>A thousand memories.</p>
+            </div>
+            <div class="hero-images scrapbook-layout">
+                <div class="polaroid tilt-left">
+                    <img src="assets/img/IMG_7742.JPG" alt="Graduation" class="placeholder-img">
+                    <p class="handwritten">🎓 Graduation Year</p>
+                </div>
+                <div class="polaroid tilt-right">
+                    <img src="assets/img/Casual/3.jpg" alt="Birthday" class="placeholder-img">
+                    <p class="handwritten">🎂 Birthday Girl</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. BOUQUET SECTION (Reference Inspired) -->
+    <section id="bouquet" class="section bg-ivory fade-in-section">
+        <div class="bouquet-card">
+            <div class="floral-decor">✿ ❀ ✿</div>
+            <div class="bouquet-image-container tooltip-container">
+                <img src="/assets/img/bouqet.jpg" alt="Bouquet" class="bouquet-img placeholder-img">
+                <span class="tooltip-text handwritten">for all the moments that made you who you are ♡</span>
+            </div>
+        </div>
+        <div class="bouquet-text">
+            <h2 class="handwritten decorative-heading">Buket dari meng comel</h2>
+            <p>A little bouquet for every beautiful chapter you've completed.</p>
+            <span class="tiny-handwritten">~ blooming gracefully ~</span>
+        </div>
+    </section>
+
+    <!-- 4. PHOTO GALLERY -->
+    <section id="gallery" class="section fade-in-section">
+        <h2 class="section-title">Little memories</h2>
+        <p class="section-subtitle">Some moments deserve to stay forever.</p>
+        <div id="gallery-container" class="scrapbook-grid">
+            <!-- Injected via JS -->
+        </div>
+    </section>
+
+    <!-- 5. VIDEO MEMORIES -->
+    <!-- <section id="videos" class="section bg-soft-pink fade-in-section">
+        <h2 class="section-title">moving memories</h2>
+        <p class="section-subtitle">Because some moments are better remembered in motion.</p>
+        <div id="video-container" class="film-strip">
+            Injected via JS
+        </div>
+    </section> -->
+
+    <!-- 6. NOTES FROM FRIENDS -->
+    <section id="notes" class="section bg-cream fade-in-section">
+        <h2 class="section-title">Notes from the jombie</h2>  
+        <p class="section-subtitle">Words from people who were lucky enough to walk beside you.</p>
+        <div id="notes-container" class="notes-grid">
+            <!-- Injected via JS -->
+        </div>
+    </section>
+
+
+
+    <!-- 8. IDOL / THINGS SHE LOVES -->
+    <section id="idols" class="section bg-soft-pink fade-in-section">
+        <h2 class="section-title">Your Idol</h2>
+        <p class="section-subtitle">They are also proud to see you.</p>
+        <div id="idols-container" class="scrapbook-collage">
+            <!-- Injected via JS -->
+        </div>
+    </section>
+
+    <!-- 9. BIRTHDAY SECTION -->
+    <section id="birthday" class="section fade-in-section text-center">
+        <h2 class="handwritten decorative-heading">Another year of you ♡</h2>
+        <h1 class="giant-title">HAPPY BIRTHDAY!</h1>
+        <div class="birthday-decor">
+            <img src="assets/img/Casual/8.png" alt="Cake" class="cake-img placeholder-img">
+            <div id="interactive-candle" class="candle tooltip-container">
+                <span class="flame">🔥</span>
+                <span class="candle-body">🕯️</span>
+                <span class="wish-text handwritten hidden">wish made ♡</span>
+            </div>
+        </div>
+        <p class="birthday-message">
+            May this year bring you more reasons to laugh,<br>
+            more places to go,<br>
+            more people to love,<br>
+            and more dreams that come true.
+        </p>
+    </section>
+
+    <!-- 10. FINAL LETTER -->
+    <section id="letter" class="section bg-dusty fade-in-section">
+        <h2 class="handwritten decorative-heading dark-text">before you go...</h2>
+        <div class="letter-paper">
+            <p>Dear Nabila,</p>
+            <p>If there's one thing we hope you remember from this little website, it's how many people are genuinely proud of you.</p>
+            <p>You made it through the hard days. You survived the deadlines. You laughed through the chaos. And somehow, you made it to this moment.</p>
+            <p>So here's to the girl who kept going.</p>
+            <p>Congratulations on your graduation.<br>Happy birthday.</p>
+            <p>And here's to everything that's waiting for you next.</p>
+            <p class="signature">With love,<br>Sejo'e ♡</p>
+        </div>
+        <div class="letter-footer">
+            <p class="bold-text">Nabila Shifa Ramadhany, S.S</p>
+            <p class="handwritten">Class of 2026</p>
+        </div>
+    </section>
+
+    <!-- 11. FINAL SCREEN -->
+    <section id="ending" class="section-full bg-ivory fade-in-section">
+        <div class="floating-flowers">🌸 💮 🌸</div>
+        <h1 class="main-title">Congratulations, Graduate ♡</h1>
+        <h2 class="name-display">Happy Birthday, Nabilaaa!</h2>
+        <p class="handwritten large-hand">Your next chapter starts here.</p>
+        <button id="replay-btn" class="btn-primary">Replay Memories ↻</button>
+    </section>
+
+    <!-- MODALS -->
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <img id="lightbox-img" src="" alt="Popup Image">
+            <p id="lightbox-caption" class="handwritten"></p>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="modal">
+        <span class="close-video-modal">&times;</span>
+        <div class="modal-content video-wrapper">
+            <video id="modal-video" controls muted playsinline>
+                <source id="video-source" src="" type="video/mp4">
+            </video>
+            <button id="unmute-btn" class="btn-secondary">🔊 Unmute</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
